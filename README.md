@@ -1,0 +1,4 @@
+﻿# Captioning Videos Using The MSR-VTT Dataset
+ - This is a vision & language based model aimed to generate descriptive sentences for video clips. A dataset containing 20,000 video clips is used for training process, and 5,000 video clips used for the validation process. From each video clips 5 scattered frames were extracted and fed into a video encoder (ResNet152) to generate an encoded output. This output is then passed to a text decoder (sequence of LSTM models) to generate meaningful caption for the video. Results indicate that, using 25,000 samples from the MSR-VTT dataset, our architecture is able to train a model that could generate meaningful captions for previously unseen video clips.
+
+ - You can find the project's report [here](https://drive.google.com/file/d/1QpToZ0qdb2mFQguRwmIBpMsxBKEQlJBe/view?usp=sharing).
